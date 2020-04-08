@@ -1,6 +1,6 @@
 import React from 'react';
 import partners from '../../tools/partners.png';
-import farmer from '../../tools/video.png';
+
 import img1 from '../../tools/img1.svg';
 import img2 from '../../tools/img2.svg';
 import img3 from '../../tools/img3.svg';
@@ -23,7 +23,7 @@ import partners3 from '../../tools/Mask Group 111.png';
 import partners4 from '../../tools/Mask Group 112.png';
 import partners5 from '../../tools/Mask Group 113.png';
 import partners6 from '../../tools/Mask Group 114.png';
-import farmer1 from '../../tools/Thrive Agric Farm Stories- Episode 1.mp4';
+
 
 
 
@@ -314,9 +314,12 @@ function Body() {
                     
                     <div class="col-md-6">
                     <div className="video-div" >
-                        <video  alt="" controls className="video-img"  >
-                            <source src={farmer1} type="video/mp4"/>
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/kIAvBIX9CFY"
+                         frameborder="0"
+                         allow="accelerometer; autoplay; encrypted-media;
+                         gyroscope; picture-in-picture" className="video-img" allowfullscreen>
+
+                         </iframe>
                     </div>
                 </div>
                 <div class="col-md-6">

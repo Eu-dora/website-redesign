@@ -1,7 +1,4 @@
 import React from 'react';
-import farmer1 from '../../tools/Thrive Agric Farm Stories- Episode 1.mp4';
-import farmer2 from '../../tools/Thrive Agric Farm Stories- Episode 2.mp4';
-import farmer3 from '../../tools/Thrive Agric Farm Stories- Episode 3.mp4';
 
 function Body() {
     return (
@@ -18,9 +15,12 @@ function Body() {
             <div className="">
                 <div class="col-md-6">
                     <div className="video-div" >
-                        <video  alt="" controls className="video-img"  >
-                            <source src={farmer1} type="video/mp4"/>
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/kIAvBIX9CFY"
+                             frameborder="0"
+                             allow="accelerometer; autoplay; encrypted-media;
+                             gyroscope; picture-in-picture" className="video-img" allowfullscreen>
+                             
+                             </iframe>
 
                     </div>
                 </div>
@@ -91,18 +91,22 @@ function Body() {
                 </div>
                 <div class="col-md-6">
                     <div className="video-div2" >
-                        <video  alt="" controls className="video-img"  >
-                            <source src={farmer2} type="video/mp4"/>
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/E_OPW8AKsjs"
+                         frameborder="0"
+                         allow="accelerometer; autoplay; encrypted-media;
+                         gyroscope; picture-in-picture" className="video-img" allowfullscreen>
+                         
+                         </iframe>
                     </div>
                 </div>
             </div>
             <div className="">
                 <div class="col-md-6">
                     <div className="video-div3" >
-                        <video  alt="" controls className="video-img"  >
-                            <source src={farmer3} type="video/mp4"/>
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/o08fUjBS_iY"
+                             frameborder="0"
+                             allow="accelerometer; autoplay; encrypted-media;
+                             gyroscope; picture-in-picture" className="video-img" allowfullscreen/>
                     </div>
                 </div>
                 <div class="col-md-6">
